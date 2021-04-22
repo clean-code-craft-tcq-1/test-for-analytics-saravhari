@@ -39,7 +39,7 @@ What is included in the software unit-test? What is not? Fill this table.
 |---------------------------|---------------|---
 Battery Data-accuracy       | No            | We do not test the accuracy of data
 Computation of maximum      | Yes           | This is part of the software being developed
-Off-the-shelf PDF converter | Yes 			| To check whether to initiate or not the PDF generation plugin based on final csv result data.
+Off-the-shelf PDF converter | No 			| External stock or provider's pugin which need not to be tested. 
 Counting the breaches       | Yes 			| Need to be considered for testing since how many times it crossed the threshold value.
 Detecting trends            | Yes			| Need to be considered for testing, since the reading continuously increasing positively more that 30 minutes.
 Notification utility        | Yes 			| Test case to check the notification sent with the valid report and acknowledge with the delivery success or not.
